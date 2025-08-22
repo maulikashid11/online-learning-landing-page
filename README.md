@@ -1,54 +1,57 @@
-Transform your body with *IronCore Fitness* – a modern gym website built with *Next.js*, *React Icons*, and *Tailwind CSS*. 
-
-Live site: [ironcore-fitness.vercel.app](https://ironcore-fitness.vercel.app/)
+ *SkillWise* is a clean, beginner-friendly landing page built with *Next.js* and *Tailwind CSS*, designed to promote an online course platform.
 
 ---
 
 🚀 Features
 
-- ✨ Clean, modern, responsive design
-- 🧑‍🏫 Personal Training section
-- 🧘 Group Classes (HIIT, Yoga, Strength & Cardio)
-- 🍎 Nutrition Coaching (meal planning & accountability)
-- ⏰ 24/7 Gym Access
-- ✅ Why Choose Us section with unique selling points
-- 💬 Testimonials and call-to-action prompts
+- ✨ Hero section with call-to-action
+- 🧠 Features section (self-paced, certificates, experts)
+- 📚 Top Courses section with mock data
+- ⚙️ How It Works (3-step explanation)
+- 💬 Testimonials
+- ❓ FAQ section
+- 📣 Final CTA banner
+- 📱 Fully responsive design
 
 ---
 
 🛠 Tech Stack
 
-- *Framework*: Next.js
-- *Styling*: Tailwind CSS
-- *Icons*: React Icons
+- *Framework:* Next.js
+- *Styling:* Tailwind CSS
+- *Icons:* React Icons (optional)
 
 ---
 
 🧑‍💻 Getting Started
 
-1. *Clone the repo:*
+1. *Clone the repository*
    bash
-   git clone https://github.com/maulikashid11/IronCore-Fitness.git
-   cd IronCore-Fitness
+   git clone https://github.com/maulikashid11/online-learning-landing-page.git
+   cd online-learning-landing-page
    
 
-2. *Install dependencies:*
+2. *Install dependencies*
    bash
    npm install
    
 
-3. *Start the development server:*
+3. *Run the development server*
    bash
    npm run dev
    
 
-4. Open your browser and go to `http://localhost:3000`
+4. Visit `http://localhost:3000` in your browser.
 
 ---
 
-📂 Folder Structure
+📁 Folder Structure
 
 
-/pages       → Next.js pages  
-/components  → Reusable UI components  
-/public      → Static assets  
+/components    → Reusable UI components
+/pages         → Main page (index.js)
+/public        → Static assets
+/styles        → Tailwind base styles
+```
+
+---
