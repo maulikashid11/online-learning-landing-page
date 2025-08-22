@@ -1,5 +1,6 @@
  *SkillWise* is a clean, beginner-friendly landing page built with *Next.js* and *Tailwind CSS*, designed to promote an online course platform.
 
+Live Link : https://skillwise-ashy.vercel.app/
 ---
 
 🚀 Features
