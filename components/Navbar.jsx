@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className=' w-full h-20 flex justify-between items-center bg-white/30 backdrop-blur-md shadow p-5'>
+    <div className='w-full h-20 flex justify-between items-center bg-white/30 backdrop-blur-md shadow p-5'>
       <Link href={'/'}><p className='text-2xl font-bold'>Skill<span className='text-purple-500'>Wise</span></p></Link>
       <ul className='hidden text-black md:flex gap-5'>
         <li><Link className='hover:text-blue-900 duration-200' href={'/'}>Home</Link></li>
@@ -29,17 +29,6 @@ const Navbar = () => {
           )}
         </svg>
       </button>
-
-      {
-        isOpen && (
-          <ul className="md:hidden absolute top-25 right-5 shadow rounded-md  duration-200 px-4 pb-4 pt-2 space-y-2 bg-white backdrop-blur ">
-            <li><Link className='hover:text-blue-900 duration-200' href={'/'}>Home</Link></li>
-            <li><Link className='hover:text-blue-900 duration-200' href={'/'}>Courses</Link></li>
-            <li><Link className='hover:text-blue-900 duration-200' href={'/'}>Pricing</Link></li>
-            <li><Link className='hover:text-blue-900 duration-200' href={'/'}>Login</Link></li>
-          </ul>
-        )
-      }
     </div>
   )
 }
